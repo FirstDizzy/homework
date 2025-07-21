@@ -13,9 +13,7 @@
 }
 .text3 {
     text-align: center;
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: 400;
+    text-transform: uppercase;
 }
 .text4 {
     text-decoration: overline wavy ;
