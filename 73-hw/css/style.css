@@ -46,12 +46,18 @@ body {
 
 /* ================== Выполнение дз ниже =================== */
 
-.box:hover .box__scale {
-    transition-duration: 1s;
-    transition-timing-function: ease-in;
+.box:hover .box__scale,
+.box:hover span {
+    transition-property: all;
 }
 
-.box:hover span {
-    transition-delay:1.1s ;
-    transition-duration: 0.5s;
+.box__scale {
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
 }
+
+span {
+  transition-duration: 1s;
+  transition-delay: 1s;
+}
+
